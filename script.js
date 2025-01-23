@@ -22,8 +22,7 @@ async function getUserCountry(params) {
             <div class="about-country">
                 <h2>Capital:${country.capital ? country.capital[0] : "Not available"}</h2>
                 <h2>Continent:${country.continents ? country.continents[0] : "Not available"}</h2>
-                    <h2>Population:${country.population ? (+country.population/1000000).toFixed(262.50401)5+'M': "Not available"}</h2?
-            
+                    <h2>Population:${country.population ? (+country.population/1000000).toFixed(262.50401)+'M': "Not available"}</h2>
 
                     
                 <h2>Currency:${country.currencies ? Object.values(country.currencies)[0].name : "N/A" }- ${country.currencies ? Object.values(country.currencies)[0].symbol : "N/A"} </h2>
